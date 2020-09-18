@@ -1,5 +1,6 @@
 #!name=Kurge
 #!desc=我的 surge 的自定义配置，包含 http-api、DoH 的配置。
+#hahaha
 [General]
 doh-server = https://dns.alidns.com/dns-query?
 http-api = zou970514@0.0.0.0:6166
