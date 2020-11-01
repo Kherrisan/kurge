@@ -5,8 +5,9 @@
 doh-server = https://dns.alidns.com/dns-query?
 http-api = zou970514@0.0.0.0:6166
 [Rule]
-DOMAIN-SUFFIX,hockeyapp.net,🔰国外流量 //Spark
-DOMAIN-SUFFIX,firebaseio.com,🔰国外流量 //Spark
-DOMAIN,usage.readdle.com,🔰国外流量 // spark
-DOMAIN,api.amplitude.com,🔰国外流量 // spark
-DOMAIN,app.smartmailcloud.com,🔰国外流量 // spark
+PROCESS-NAME,/Applications/Spark.app/Contents/MacOS/Spark,🔰国外流量 // Spark
+DOMAIN-SUFFIX,hockeyapp.net,🔰国外流量 // Spark
+DOMAIN-SUFFIX,firebaseio.com,🔰国外流量 // Spark
+DOMAIN,usage.readdle.com,🔰国外流量 // Spark
+DOMAIN,api.amplitude.com,🔰国外流量 // Spark
+DOMAIN,app.smartmailcloud.com,🔰国外流量 // Spark
